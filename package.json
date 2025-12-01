@@ -1,6 +1,12 @@
 {
-  "dependencies": {
-    "@react-spring/three": "^10.0.3",
-    "git": "^0.1.5"
+  "name": "optiflow-prototype",
+  "version": "1.0.0",
+  "description": "Factory Digital Twin",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
