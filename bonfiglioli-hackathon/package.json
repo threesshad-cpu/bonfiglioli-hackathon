@@ -1,0 +1,12 @@
+{
+  "name": "optiflow-prototype",
+  "version": "1.0.0",
+  "description": "Factory Digital Twin",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
